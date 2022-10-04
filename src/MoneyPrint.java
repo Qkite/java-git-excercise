@@ -23,8 +23,8 @@ public class MoneyPrint {
 //            int num = refund / money;
 //            System.out.print(num + "개");
 //            System.out.println();
-//            refund = refund % money;
+//            refund = refund % money;}
 
-        }
     }
 }
+
