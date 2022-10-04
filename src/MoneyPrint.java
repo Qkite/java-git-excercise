@@ -10,12 +10,14 @@ public class MoneyPrint {
         int curr500 = 500;
         int curr100 = 100;
 
-        System.out.println("50000원: " + refund/curr50000);
-        System.out.println("10000원: " + refund/curr10000);
-        System.out.println("5000원: " + refund/curr5000);
-        System.out.println("1000원: " + refund/curr1000);
-        System.out.println("500원: " + refund/curr500);
-        System.out.println("100원: " + refund/curr100);
+        // %d는 숫자를 넣을 수 있음
+
+        System.out.printf("50000원 몫: %d, 나머지: %d\n",refund/curr50000, refund%curr50000);
+        System.out.printf("10000원 몫:  %d, 나머지: %d\n",refund/curr10000, refund%curr10000);
+        System.out.printf("5000원 몫: %d, 나머지: %d\n", refund/curr5000, refund%curr5000);
+        System.out.printf("1000원 몫: %d, 나머지 %d\n", refund/curr1000,refund%curr1000);
+        System.out.printf("500원 몫: %d, 나머지 %d\n", refund/curr500, refund%curr500);
+        System.out.printf("100원 몫:  %d, 나머지 %d\n" ,refund/curr100, refund%curr100);
 
 //        for (int money:
 //             moneyArray) {
