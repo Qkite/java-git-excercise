@@ -5,7 +5,7 @@ public class SwapExcercise {
 
         int temp=a;
 
-        // 숫자 바꾸기
+        // 숫자 바꾸기~
         a=b;
         b=temp;
 
