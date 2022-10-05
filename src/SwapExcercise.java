@@ -8,6 +8,7 @@ public class SwapExcercise {
         // 숫자 바꾸기
         a=b;
         b=temp;
+
         System.out.printf("a:%d b:%d", a,b);
         
     }
